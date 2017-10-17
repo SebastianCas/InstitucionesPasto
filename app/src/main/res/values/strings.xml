@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Instituciones Pasto</string>
+    <string name="Response">Respuesta</string>
+    <string name="Fail">Error Fallido</string>
+    <string name="nombre">Nombre:</string>
+    <string name="muni">Municipio:</string>
+    <string name="bus">Buscar</string>
+</resources>

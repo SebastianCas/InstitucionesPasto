@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Institutions Pasto</string>
+    <string name="Response">OnResponse</string>
+    <string name="Fail">OnFailure</string>
+    <string name="nombre">Name:</string>
+    <string name="muni">Municipality:</string>
+    <string name="bus">Search</string>
+</resources>
