@@ -5,4 +5,10 @@
     <string name="nombre">Nombre:</string>
     <string name="muni">Municipio:</string>
     <string name="bus">Buscar</string>
+    <string name="titulo">Datos Abiertos Colombia</string>
+    <string name="carga">Cargando.....</string>
+    <string name="acerca">Acerca De</string>
+    <string name="salir">Salir</string>
+    <string name="txt1">Matrículas Vigentes en Instituciones Educativas del Departamento de Nariño Jornada de la Mañana</string>
+    <string name="txt2">Datos relacionados con matrículas Educativas Jornada de la Mañana, en las Instituciones Educativas y sus sedes, en cada municipio del departamento de Nariño año 2016.</string>
 </resources>

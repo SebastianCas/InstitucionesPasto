@@ -1,5 +1,6 @@
 package com.example.sebastian.institucionespasto;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
@@ -119,5 +120,10 @@ public class MainActivity extends AppCompatActivity {
             }
         };
         timeThread.start();
+    }
+
+    public void acerca(View v){
+        Intent i = new Intent(this, acerca.class );
+        startActivity(i);
     }
 }

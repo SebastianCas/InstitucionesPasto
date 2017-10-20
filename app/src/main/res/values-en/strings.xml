@@ -6,4 +6,10 @@
     <string name="nombre">Name:</string>
     <string name="muni">Municipality:</string>
     <string name="bus">Search</string>
+    <string name="titulo">Open Data Colombia</string>
+    <string name="carga">Loading.......</string>
+    <string name="acerca">About</string>
+    <string name="salir">Exit</string>
+    <string name="txt1">Current Enrollment in Educational Institutions of the Department of Nariño Day of the Morning</string>
+    <string name="txt2">Information related to educational registrations Day of the Morning, in the Educational Institutions and their headquarters, in each municipality of the department of Nariño year 2016.</string>
 </resources>

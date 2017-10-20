@@ -5,42 +5,40 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.sebastian.institucionespasto.MainActivity"
-    android:weightSum="1">
+    tools:context="com.example.sebastian.institucionespasto.acerca">
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/view"
-        android:scrollbars="vertical"
+    <ImageView
+        android:id="@+id/imageView4"
         android:layout_width="match_parent"
-        android:layout_height="334dp" />
-
-    <ProgressBar
-        android:id="@+id/barra"
-        style="?android:attr/progressBarStyleHorizontal"
-        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="0.14" />
+        app:srcCompat="@drawable/datos" />
 
-    <Button
-        android:id="@+id/button2"
+    <TextView
+        android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="casual"
-        android:onClick="obtenerDatos"
-        android:text="@string/bus"
+        android:text="@string/txt1"
         android:textColor="@android:color/background_dark"
         android:textSize="18sp"
         android:textStyle="bold" />
 
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt2"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="casual"
-        android:onClick="acerca"
-        android:text="@string/acerca"
+        android:onClick="salir"
+        android:text="@string/salir"
         android:textColor="@android:color/background_dark"
         android:textSize="18sp"
         android:textStyle="bold" />
-
 </LinearLayout>
